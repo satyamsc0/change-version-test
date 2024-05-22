@@ -42,3 +42,10 @@ To update the version and commit changes with a custom message:
 
 ```sh
 ./change_version.sh --message "Your commit message"
+```
+
+If you also want to push use flag `--push`:
+
+```sh
+./change_version.sh --message "Your commit message" --push
+```
